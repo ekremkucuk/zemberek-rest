@@ -35,7 +35,7 @@ java -jar ...asdad. -Dspring...
 
 Swagger Rest Documentation is bundled in artifacts. Open web address:
 
-http://<service-ip>:<service-port>/swagger-ui.html
+http://`<service-ip>`:`<service-port>`/swagger-ui.html
 
 ## How to call?
 
