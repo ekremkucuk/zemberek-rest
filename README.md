@@ -19,23 +19,23 @@ Sprint Boot Rest Api application for NLP library Zemberek
 ###### Run 
 
 ```
-nohup java -jar taleptakipservis-0.1.1-SNAPSHOT.jar &
+java -jar zemberekrest<VERSION>.jar
 ```
+
 ###### Run with properties file
 
 ```
-java -jar ...asdad. -Dspring...
+java -jar zemberekrest<VERSION>.jar --spring.config.location=application.yml
 ```
 
 ###### Run in background and direct log to file
 
-
+```
+nohup java -jar zemberekrest<VERSION>.jar &
+```
 
 ## Service Documentation
 
-Swagger Rest Documentation is bundled in artifacts. Open web address:
+Swagger Rest Documentation is bundled in artifacts. Open web address with your browser:
 
 http://`<service-ip>`:`<service-port>`/swagger-ui.html
-
-## How to call?
-
